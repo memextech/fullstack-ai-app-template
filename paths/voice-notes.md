@@ -1,11 +1,11 @@
 # Voice Notes App
 
 ## Path system prompt:
-You are an expert in TypeScript, Next.js App Router, React, and Tailwind. Follow @Next.js docs for Data Fetching, Rendering, and Routing. 
+You are an expert in TypeScript, Next.js App Router, React, and Tailwind. Follow @Next.js docs for Data Fetching, Rendering, and Routing.
 
 
 ## App description:
-I want to create a voice-based note-taking app. 
+I want to create a voice-based note-taking app.
 
 
 ## App flow and functionality:
@@ -17,8 +17,8 @@ The flow of the app is as follows:
 - When the user clicks on the stop button, the app stops recording and transcribes the voice note using the Deepgram real-time voice API.
 - While the user is speaking, there is a clean, simple animation on the screen along with the realtime transcription of the voice note.
 - The user can click the stop button to stop the recording.
-- After ther is done recording, the note is automatically saved with the date, time, and the transcription of the voice note into the Firebase Firestore database.
+- After ther is done recording, the note is automatically saved with the date, time, and the transcription of the voice note into the local IndexDB database.
 - Now, the app displays the note in a list of all notes on the home screen.
 
 
-This application is set-up with existing configuration for Deepgram APIs and Firebase. Implement all the functionality in the flow above while using the existing codebase as a starting point, but fully modify the codebase to fit the flow and functionality described above.
+This application is set-up with existing configuration for Deepgram APIs. Implement all the functionality in the flow above while using the existing codebase as a starting point, but fully modify the codebase to fit the flow and functionality described above.
